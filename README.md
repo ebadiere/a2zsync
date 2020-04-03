@@ -50,6 +50,7 @@ Third requirement:
 The route to retrieve the movies in the api is: /movies
 
 Example call from postman:
+```angular2html
 <?php
 
 $curl = curl_init();
@@ -69,6 +70,7 @@ $response = curl_exec($curl);
 
 curl_close($curl);
 echo $response;
+```
 
 Response:
 ```
